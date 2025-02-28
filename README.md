@@ -1,5 +1,5 @@
-# ✈️ Customer Segmentation for Travel Agencies  
-🚀 **Unlocking Insights for Targeted Marketing Strategies**  
+<h1 align="center">✈️ Customer Segmentation for Travel Agencies</h1>  
+<h3 align="center">🚀 <b>Unlocking Insights for Targeted Marketing Strategies</b></h3>  
 
 [![MasterHead](https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e)](https://rishavchanda.io)  
 
