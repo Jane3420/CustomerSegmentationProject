@@ -1,82 +1,65 @@
-Customer Segmentation for Travel Agency
+# ✈️ Customer Segmentation for Travel Agencies  
+🚀 **Unlocking Insights for Targeted Marketing Strategies**  
 
-🚀 Project Overview
+[![MasterHead](https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e)](https://rishavchanda.io)  
 
-This project focuses on customer segmentation for a travel agency, utilizing machine learning clustering techniques. The goal is to group customers based on common characteristics to enhance marketing strategies and improve customer engagement.
+<h1 align="center">Hi 👋, Welcome to My Project!</h1>  
+<h3 align="center">Data Science | Machine Learning | Customer Segmentation</h3>  
 
-📊 Dataset
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20views&color=0e75b6&style=flat" alt="yourusername" /> </p>  
 
-2000 customers from a travel agency
+---
 
-Features: Age, Gender, Annual Income, Marital Status, Education, Occupation, Settlement Size
+## 📌 Project Overview  
+This project focuses on **customer segmentation** for a travel agency, analyzing a dataset of **2,000 customers** to identify key groups using **clustering techniques**. The goal is to provide actionable insights that help businesses optimize marketing strategies and improve customer engagement.  
 
-🔍 Methodology
+### 🔬 **Key Objectives:**  
+✅ Perform **Exploratory Data Analysis (EDA)** to uncover trends and distributions.  
+✅ Apply **K-Means++ and Agglomerative Clustering** to group customers based on demographics.  
+✅ Identify **optimal clusters** using the **Elbow Method and Silhouette Analysis**.  
+✅ Provide **marketing recommendations** based on customer profiles.  
 
-Exploratory Data Analysis (EDA):
+---
 
-Detecting outliers, missing values, and understanding the data distribution.
+## 📊 Data Insights  
+### 🧐 **Exploratory Data Analysis (EDA)**  
+- Dataset consists of **age, income, gender, marital status, education, occupation, and settlement size**.  
+- **Income distribution** is right-skewed, with a small percentage of high earners.  
+- **Gender ratio**: ~60% Female, ~40% Male.  
+- **Marital Status**: Evenly split (50.05% married, 49.95% single).  
 
-Key findings:
+### 🔢 **Clustering Methods & Results**  
+✅ **Elbow Method & Silhouette Score** determined **2 clusters** as the optimal number.  
+✅ **K-Means++ and Agglomerative Clustering** identified two major customer segments:  
+1. **Younger, Moderate-Income Group**  
+   - Primarily **single females (~33 years old)** with **moderate income (~$103K)**.  
+   - Reside mostly in **rural or small towns**.  
+   - Likely in **lower-tier jobs or unemployed**.  
+   
+2. **Older, High-Income Group**  
+   - Primarily **married males (~48 years old)** with **high income (~$171K)**.  
+   - Reside in **large cities**.  
+   - Hold **professional or managerial roles**.  
 
-Customers' age range: 20 to 76 years (average ~40.8 years)
+---
 
-Income range: $35,832 - $309,364 (average ~$137,000)
+## 🎯 Marketing Recommendations  
+📌 **For Younger, Moderate-Income Customers:**  
+- Focus on **budget-friendly** travel deals like **adventure trips, discount flights, and weekend getaways**.  
+- Utilize **Instagram, TikTok, and Facebook** with engaging visual content.  
+- Offer **group discounts and referral incentives**.  
 
-Gender split: 60% female, 40% male
+📌 **For Older, High-Income Customers:**  
+- Promote **luxury experiences**, including **international tours, cruises, and premium packages**.  
+- Use **email marketing and loyalty programs** with personalized offers.  
+- Partner with **premium travel magazines** and create exclusive **VIP travel memberships**.  
 
-Marital status: 50% married, 50% single
+---
 
-Education: 48% graduates, 41.5% postgraduates
+## 🛠️ Tech Stack  
+- **Programming:** Python 🐍  
+- **Libraries:** Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib  
+- **Clustering Methods:** K-Means++, Agglomerative Clustering  
+- **Visualization:** Seaborn, Matplotlib  
 
-Occupation: Largest segment is unemployed/unskilled (~1000 customers)
-
-Settlement: 56.6% rural, 40% urban, 3.6% suburban
-
-Determining Optimal Clusters:
-
-Elbow Method & Silhouette Analysis to identify the ideal number of clusters
-
-Best choice: k=2 clusters (highest silhouette score of 0.60)
-
-Clustering Techniques:
-
-K-means++ & Agglomerative Clustering
-
-Both methods found two distinct customer groups:
-
-Cluster 1: Younger, single females (~33 years old, $103K income, rural areas, mid-level education, lower-tier jobs)
-
-Cluster 2: Older, married males (~48 years old, $171K income, large cities, high education, professional roles)
-
-🎯 Recommendations
-
-🔹 For younger, moderate-income customers:
-
-Offer budget-friendly travel deals (weekend getaways, adventure trips, seasonal discounts)
-
-Promote via Instagram, TikTok, Facebook using engaging content
-
-Implement group discounts & referral programs
-
-🔹 For older, high-income customers:
-
-Provide luxury tours, cruises, and exclusive travel packages
-
-Leverage email marketing, loyalty rewards, business publications
-
-Create premium membership programs for VIP deals and private tours
-
-🔮 Conclusion
-
-This project successfully segmented customers into two meaningful groups, allowing for targeted marketing strategies. Future work can involve more granular segmentation and advanced machine learning techniques for personalized recommendations.
-
-📌 Tech Stack
-
-Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-
-Machine Learning (K-means++, Agglomerative Clustering)
-
-📫 Contact
-
-For any questions or collaboration opportunities, reach out to Minh Anh (Jane) Tran via LinkedIn or email minnhanh.tran@students.mq.edu.au.
 
